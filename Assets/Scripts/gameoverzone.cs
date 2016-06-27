@@ -15,7 +15,6 @@ public class gameoverzone : MonoBehaviour {
 	}
 
 	void OnTriggerEnter(Collider other){
-		Debug.Log ("here:)");
 
 		if (other.gameObject.name == "Tapioca") {
 			SceneManager.LoadScene ("gameover"); 
