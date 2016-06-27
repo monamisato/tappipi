@@ -1,8 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
-using UnityEngine.SceneManagement;
 
-public class gamesystem : MonoBehaviour {
+public class retrybutton : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
@@ -12,11 +11,5 @@ public class gamesystem : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 	
-
-	}
-
-	public void StartButton() {
-
-		SceneManager.LoadScene("menu");
 	}
 }

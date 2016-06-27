@@ -13,7 +13,6 @@ public class gameclear : MonoBehaviour {
 	}
 
 	void OnTriggerEnter(Collider other){
-		Debug.Log ("here:)");
 
 		if (other.gameObject.name == "Tapioca") {
 			SceneManager.LoadScene ("goal"); 
