@@ -1,17 +1,18 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class TapiocaLimitArea : MonoBehaviour {
+public class TapiocaLimitAreaDown : MonoBehaviour {
 
 	float y = 0.0f;
 
-	void Update () {
+	void Update ()
+	{
 
 		y = transform.position.y;	
 
-			if(y > -3) {
+		if (y > -3) {
 			transform.position = new Vector3 (transform.position.x, -3, 0);
 
+			}
 		}
 	}
-}
