@@ -13,8 +13,10 @@ public class gobacktostart : MonoBehaviour {
 	void Update () {
 	
 	}
-	public void GoBackButton() {
+
+	public void StartButton() {
 	SceneManager.LoadScene("startmenu");
+	GameObject.Find ("button").GetComponent<CanvasRenderer> ().SetAlpha (0);
 
 }
  
