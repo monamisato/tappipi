@@ -3,7 +3,7 @@ using System.Collections;
 
 public class tapiocafall : MonoBehaviour {
 	//Array 
-	public GameObject[] tapiocas;
+	public GameObject[] tapioca;
 
 	public float timer = 0;
 	public float limit = 0;
@@ -12,7 +12,7 @@ public class tapiocafall : MonoBehaviour {
 	void Start () {
 	
 		//タグがついているものをまとめて取得
-		tapiocas = GameObject.FindGameObjectsWithTag ("Tapioca");
+		tapiocas = GameObject.FindGameObjectsWithTag ("tapioca");
 		limit = 5 + Random.Range (1.0f, 2.0f);
 
 	}

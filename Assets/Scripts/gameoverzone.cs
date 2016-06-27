@@ -4,9 +4,11 @@ using UnityEngine.SceneManagement;
 
 public class gameoverzone : MonoBehaviour {
 
+
 	// Use this for initialization
 	void Start () {
-	
+
+
 	}
 	
 	// Update is called once per frame
@@ -17,7 +19,9 @@ public class gameoverzone : MonoBehaviour {
 	void OnTriggerEnter(Collider other){
 
 		if (other.gameObject.name == "Tapioca") {
-			SceneManager.LoadScene ("gameover"); 
+			PlayerPrefs.SetInt ("lastScene", 5);
+			SceneManager.LoadScene ("gameover");  
+
 		}
 	}
 }
