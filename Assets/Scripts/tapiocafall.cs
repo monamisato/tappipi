@@ -15,6 +15,11 @@ public class tapiocafall : MonoBehaviour {
 		tapiocas = GameObject.FindGameObjectsWithTag ("tapioca");
 		limit = 5 + Random.Range (1.0f, 2.0f);
 
+		for (int i = 0; i < tapiocas.Length; i++) {
+		
+			tapiocas[i].GetComponent<Rigidbody>().useGravity = false;
+		}
+
 	}
 	
 	// Update is called once per frame
