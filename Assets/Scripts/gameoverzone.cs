@@ -4,6 +4,7 @@ using UnityEngine.SceneManagement;
 
 public class gameoverzone : MonoBehaviour {
 
+	public int currentScene;
 
 	// Use this for initialization
 	void Start () {
@@ -19,7 +20,7 @@ public class gameoverzone : MonoBehaviour {
 	void OnTriggerEnter(Collider other){
 
 		if (other.gameObject.name == "Tapioca") {
-			PlayerPrefs.SetInt ("lastScene", 5);
+			PlayerPrefs.SetInt("lastScene", currentScene);
 			SceneManager.LoadScene ("gameover");  
 
 		}

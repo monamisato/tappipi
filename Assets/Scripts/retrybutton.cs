@@ -18,12 +18,14 @@ public class retrybutton : MonoBehaviour {
 		int number = PlayerPrefs.GetInt("lastScene");
 		if (number == 5) {
 			SceneManager.LoadScene ("stage5");
-		} else if (number == 4) {
-			SceneManager.LoadScene ("stage4");
-		} else if (number == 3) {
-			SceneManager.LoadScene ("stage3");
+		}else if(number ==1) {
+			SceneManager.LoadScene ("stage1");
 		} else if (number == 2) {
 			SceneManager.LoadScene ("stage2");
+		} else if (number == 3) {
+			SceneManager.LoadScene ("stage3");
+		} else if (number == 4) {
+			SceneManager.LoadScene ("stage4");
 		} else if (number == 6) {
 			SceneManager.LoadScene ("stage6");
 		} else if (number == 7) {
@@ -32,6 +34,12 @@ public class retrybutton : MonoBehaviour {
 			SceneManager.LoadScene ("stage8");
 		} else if (number == 9) {
 			SceneManager.LoadScene ("stage9");
+		} else if (number == 10) {
+			SceneManager.LoadScene ("stage10");
+		} else if (number == 11) {
+			SceneManager.LoadScene ("stage11");
+		} else if (number == 12) {
+			SceneManager.LoadScene ("stage12");
 		}
 	}
 }

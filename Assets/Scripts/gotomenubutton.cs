@@ -17,6 +17,5 @@ public class gotomenubutton : MonoBehaviour {
 
 	public void StartButton() {
 		SceneManager.LoadScene("menu");
-		GameObject.Find ("button").GetComponent<CanvasRenderer> ().SetAlpha (0);
 	}
 }
