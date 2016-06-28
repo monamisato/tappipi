@@ -3,7 +3,7 @@ using System.Collections;
 
 public class tapiocafall : MonoBehaviour {
 	//Array 
-	public GameObject[] tapioca;
+	public GameObject[] tapiocas;
 
 	public float timer = 0;
 	public float limit = 0;

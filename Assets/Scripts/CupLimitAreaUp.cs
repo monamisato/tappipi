@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class TapiocaLimitAreaDown : MonoBehaviour {
+public class CupLimitAreaDown : MonoBehaviour {
 
 	float y = 0.0f;
 
