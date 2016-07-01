@@ -28,18 +28,7 @@ public class retrybutton : MonoBehaviour {
 			SceneManager.LoadScene ("stage4");
 		} else if (number == 6) {
 			SceneManager.LoadScene ("stage6");
-		} else if (number == 7) {
-			SceneManager.LoadScene ("stage7");
-		} else if (number == 8) {
-			SceneManager.LoadScene ("stage8");
-		} else if (number == 9) {
-			SceneManager.LoadScene ("stage9");
-		} else if (number == 10) {
-			SceneManager.LoadScene ("stage10");
-		} else if (number == 11) {
-			SceneManager.LoadScene ("stage11");
-		} else if (number == 12) {
-			SceneManager.LoadScene ("stage12");
+		
 		}
 	}
 }
